@@ -126,6 +126,7 @@ Inside `main.cpp`:
 
 ---[recording.webm](https://github.com/user-attachments/assets/c83c7a34-3b98-4a71-9c09-d1ce6caa2a91)
 
+<img width="453" height="468" alt="Screenshot 2025-08-31 171923" src="https://github.com/user-attachments/assets/887c68b5-c94d-4518-b1db-efc0a9dd3b51" />
 
 ## 🗒️ TODO Ideas
 
