@@ -3,7 +3,6 @@
 A simple, classic Snake game implemented in C++ using **OpenGL** and **GLUT**. It renders a grid-based board, spawns food at random cells, and lets you control the snake via keyboard **(t/h/g/f)** or mouse clicks. Lightweight, dependency-minimal, and great for learning event-driven rendering loops.
 
 ---
-
 ## ✨ Features
 
 - Grid-based snake movement with smooth redraws using GLUT's timer.
@@ -12,7 +11,6 @@ A simple, classic Snake game implemented in C++ using **OpenGL** and **GLUT**. I
 - **Pause/Unpause** during gameplay.
 - Optional **mouse steering**: click a cell to steer the snake head toward it.
 - Compact single-file core (`main.cpp`), easy to read and modify.
-
 ---
 
 ## 🎮 Controls
@@ -38,7 +36,6 @@ A simple, classic Snake game implemented in C++ using **OpenGL** and **GLUT**. I
 ---
 
 ## 🗂️ Project Structure
-
 ```
 .
 ├── main.cpp            # Game logic & rendering (OpenGL/GLUT)
@@ -116,16 +113,13 @@ Inside `main.cpp`:
 - **Input**: `keyboardFunc()` reads t/h/g/f + P + R; `mouseFunc()` maps clicks to a direction.
 - **Updates**: `update()` advances the snake by shifting body segments, moves the head, checks collisions, and grows on food.
 - **Food**: `generateFood()` keeps choosing random cells until it finds one not occupied by the snake.
-
 ---
-
 ## 📸 Screenshots
-
-
 ```
+### 🎥 Gameplay Video
+https://github.com/user-attachments/assets/c83c7a34-3b98-4a71-9c09-d1ce6caa2a91
 
----[recording.webm](https://github.com/user-attachments/assets/c83c7a34-3b98-4a71-9c09-d1ce6caa2a91)
-
+### 🖼️ Screenshot
 <img width="453" height="468" alt="Screenshot 2025-08-31 171923" src="https://github.com/user-attachments/assets/887c68b5-c94d-4518-b1db-efc0a9dd3b51" />
 
 ## 🗒️ TODO Ideas
@@ -136,9 +130,7 @@ Inside `main.cpp`:
 - Play a sound on **eat** and **game over**.
 - Persist **high scores**.
 - Add **unit tests** for utility logic.
-
 ---
-
 ## 📄 License
 
 This repository is provided for learning and demo purposes. You can add an MIT License if you intend to open-source it.
